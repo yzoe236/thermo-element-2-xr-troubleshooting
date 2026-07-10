@@ -11,6 +11,15 @@ is often the fastest path to a repair. This repo makes that experience findable.
 **119 entries** across 10 subsystems · 37 still unresolved (marked ⏳)
 · last updated 2026-07-09
 
+## Start here
+
+- 🗺️ **[Common failure patterns](PATTERNS.md)** — the big picture: where these
+  instruments typically break, distilled from all 119 threads
+- 💰 **[Parts & money-saving substitutes](parts-and-substitutes.md)** — every
+  part number, price, and community-verified cheap alternative, in one table
+- 🧩 **[Unsolved mysteries](unresolved.md)** — 37 problems nobody has cracked
+  yet. Solved one? Tell us!
+
 ## Browse by subsystem
 
 | Subsystem | Entries |
