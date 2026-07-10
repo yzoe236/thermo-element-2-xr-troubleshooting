@@ -2,7 +2,7 @@
 
 A searchable, subsystem-organized index of real-world troubleshooting discussions
 for **Thermo Element 2 / Element XR** (sector-field HR-ICP-MS) instruments,
-distilled from the community mailing list **the Element mailing list (lists.ucsc.edu)** (2024–2026).
+distilled from the **Element community mailing list** (hosted at lists.ucsc.edu, 2024–2026).
 
 These aging instruments have limited official support. The collective experience
 of the user community — what broke, what it turned out to be, and what fixed it —
