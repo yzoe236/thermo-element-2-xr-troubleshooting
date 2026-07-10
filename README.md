@@ -51,7 +51,7 @@ solved on-list — if you've solved one, please contribute!
 - **Had a problem that's not listed?** Open an issue with the *Report a problem* template.
 - **Solved something (especially a ⏳ entry)?** Open an issue with the *Add a solution* template.
 - **Found an error?** Open a *Correction* issue.
-- Pull requests editing the `kb/*.md` files directly are welcome too.
+- Pull requests editing the `subsystems/*.md` files directly are welcome too.
 
 ## Privacy & attribution
 
