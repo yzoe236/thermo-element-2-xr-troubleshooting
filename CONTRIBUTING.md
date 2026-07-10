@@ -2,7 +2,7 @@
 
 The easiest way: **open an issue** using one of the templates
 (report a problem / add a solution / correction). Maintainer will fold accepted
-submissions into the `kb/*.md` files, crediting you by name (never email).
+submissions into the `subsystems/*.md` files, crediting you by name (never email).
 
 Entry format used throughout:
 

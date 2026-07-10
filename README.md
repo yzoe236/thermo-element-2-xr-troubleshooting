@@ -1,4 +1,4 @@
-# Thermo Element ICP-MS Community Troubleshooting Knowledge Base
+# Thermo Element 2 / Element XR (HR-ICP-MS) — Community Troubleshooting Knowledge Base
 
 A searchable, subsystem-organized index of real-world troubleshooting discussions
 for **Thermo Element 2 / Element XR** (sector-field HR-ICP-MS) instruments,
@@ -15,16 +15,16 @@ is often the fastest path to a repair. This repo makes that experience findable.
 
 | Subsystem | Entries |
 |---|---|
-| [Plasma, Torch & RF](kb/plasma-torch.md) | 10 |
-| [Electronics, High Voltage & Front-End PC (FEP)](kb/electronics-hv.md) | 20 |
-| [Detector (SEM / Faraday / IDU)](kb/detector.md) | 17 |
-| [Element Software](kb/software.md) | 24 |
-| [Sample Introduction (Nebulizer / Autosampler / MFC)](kb/inlet-sample.md) | 12 |
-| [Vacuum System (Pumps & Gauges)](kb/vacuum.md) | 6 |
-| [Magnet & Mass Scanning](kb/magnet.md) | 5 |
-| [Cones, Slits & Interface](kb/cones-interface.md) | 3 |
-| [Maintenance, Chiller & Spare Parts](kb/maintenance.md) | 11 |
-| [Applications & Other](kb/applications-other.md) | 11 |
+| [Plasma, Torch & RF](subsystems/plasma-torch.md) | 10 |
+| [Electronics, High Voltage & Front-End PC (FEP)](subsystems/electronics-hv.md) | 20 |
+| [Detector (SEM / Faraday / IDU)](subsystems/detector.md) | 17 |
+| [Element Software](subsystems/software.md) | 24 |
+| [Sample Introduction (Nebulizer / Autosampler / MFC)](subsystems/inlet-sample.md) | 12 |
+| [Vacuum System (Pumps & Gauges)](subsystems/vacuum.md) | 6 |
+| [Magnet & Mass Scanning](subsystems/magnet.md) | 5 |
+| [Cones, Slits & Interface](subsystems/cones-interface.md) | 3 |
+| [Maintenance, Chiller & Spare Parts](subsystems/maintenance.md) | 11 |
+| [Applications & Other](subsystems/applications-other.md) | 11 |
 
 ## How to use
 
@@ -34,7 +34,7 @@ is often the fastest path to a repair. This repo makes that experience findable.
    with a symptom keyword, e.g. `no signal counting mode`, `Error 89`,
    `heap corruption`, `plasma ignition`, `SEM supply board`. GitHub full-text
    indexes every entry.
-2. **Browse by subsystem** — go to the `kb/` file that matches where the problem
+2. **Browse by subsystem** — go to the `subsystems/` file that matches where the problem
    lives (detector, plasma, FEP/electronics, …). Entries are newest-first;
    `Ctrl+F` within the page narrows it down.
 3. **Trace back to the full discussion** — every entry cites the *original list
