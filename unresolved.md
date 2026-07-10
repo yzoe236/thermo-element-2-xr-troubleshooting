@@ -1,6 +1,6 @@
 # Unsolved Mysteries — Can You Crack One?
 
-37 problems from the list were never conclusively solved. If you have
+41 problems from the list were never conclusively solved. If you have
 solved one of these (or have a strong lead), **please open an *Add a solution* issue** —
 you may save another lab weeks of downtime.
 
@@ -33,6 +33,7 @@ you may save another lab weeks of downtime.
 - **Registry path error during scan** (2025-09-16) — Tune scan launch shows "Cannot open registry key; SOFTWARE\finnigan\Element\Executive\Logfiles" error; loses instrument connection afterward
 - **Triple-mode count/analog/Faraday data selection logic** (2025-06-11) — How to select count vs. analog and analog vs. Faraday reporting in Triple mode?
 - **Sequence operation capability without plasma on** (2025-06-03) — Attempt to run sequence with plasma off; first line runs but sequence stops
+- **Half-mass acquisition setup for 230Th/238U tail correction** (2025-04-30) — For U-Th dating, need to scan ~238.5 and monitor half-masses (e.g. 230.5) to quantify 238U tail onto 230Th; no on-list answer captured
 - **Boron isotope deadtime measurement inconsistency** (2025-03-12) — Element2 deadtime measurements inconsistent; repeated testing with U, Pb, Lu isotopes remain confused
 - **FEP initialization error 89** (2025-02-10) — Error 89 appears during FEP initialization and control computer; FEP direct trigger responds; occurred after Windows update; admin privilege
 - **Analog signal loss when selecting "Both" detector mode** (2024-12-13) — Selecting "Both" (analog + count) in SHOW makes analog (red) signal disappear. Peak shows analog and count when selected individually, but b
@@ -63,6 +64,8 @@ you may save another lab weeks of downtime.
 ## Maintenance ([details](subsystems/maintenance.md))
 
 - **ThermoFlex 2500 cooler HPC fault** (2025-10-15) — Two ThermoFlex 2500 independently show HPC error; manual indicates building water supply issue but supply normal; errors mainly occur at pla
+- **Wanted: trusted third-party suppliers for cones, torches, injectors, bonnets** (2025-03-27) — Community request to compile third-party consumables suppliers for Element 2 / Neoma; no list posted
+- **Sourcing an obsolete Mass-Stream D-511 argon MFC (older Element)** (2025-03-21) — Older Element needs a Mass-Stream D-511 (2 L/min Ar) MFC; obsolete, no supplier surfaced
 - **Chiller water panel component leakage after 10 years operation** (2024-10-14) — Water level in chiller drops significantly; puddle found under Element; leak between parts 13 and 10/11 on water panel.
 
 ## Other ([details](subsystems/applications-other.md))
@@ -70,3 +73,4 @@ you may save another lab weeks of downtime.
 - **Ultra-pure tetrafluoroboric acid reagent procurement** (2025-12-17) — Seek US supplier for ultra-pure HBF4 38% solution for ICP-MS sample prep (Fe<0.01ppm, SO4<0.5ppm)
 - **Element2 and UV laser impact on ICD wearers** (2025-07-21) — Inquire about Element2 and UV laser impact on ICD (implantable cardioverter-defibrillator) wearers
 - **Gadolinium recovery problem with antimony coexistence** (2025-04-10) — Gd recovery low when mixed with Sb standard; normal when measured separately
+- **Feasibility of lead-in-whole-blood analysis on Element 2** (2024-07-05) — Clinical lab evaluating on-site Element 2 for Pb in whole blood; wants protocol + running costs; nothing posted

@@ -30,6 +30,7 @@ discussion (2024–2026), and your mileage may vary.
 | Load coil 90° chilled-water push-fit (4 mm) | **SMC KQ2L04-M5A** (M5 thread) | | *load coil fitting*, 2024-07 |
 | Argon push-fit bulkhead connector / MFC shutoff valve | Thermo **PN 1067340** | Substitute: **Colder Products MCD1204** (Fresh Water Systems) | *Argon connectors* 2025-02; *Failing sample gas MFC* 2024-10 |
 | Sample gas MFC | Thermo **PN 1354110** | Requires ICP Module board rev. 7+ | *Failing sample gas MFC*, 2024-10 |
+| Mass flow controller, older Element (2 L/min argon) | **Mass-Stream D-511** | Obsolete OEM MFC; sourced only as used units on-list. Newer PN 1354110 needs board rev. 7+, so not a drop-in | *mass flow controllers*, 2025-03 |
 | Argon inlet ferrule (Element & Neptune) | Thermo **PN 0674790** (KEGELEINS 1/8"–1/16" PTFE) | No Swagelok equivalent | *Ferrule for Argon connection*, 2026-07 |
 | Torch assembly interlock switch | **Bernstein 6008116032** | | *Torch assembly part*, 2024-11 |
 | Main gas valve solenoid trigger | (~**$60**) | Test trigger resistance before replacing whole valve | *Cool gas and coil cooling error*, 2025-09 |

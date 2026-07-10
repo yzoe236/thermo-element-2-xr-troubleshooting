@@ -1,6 +1,6 @@
 # Applications & Other
 
-11 entries · newest first · [back to index](../README.md)
+13 entries · newest first · [back to index](../README.md)
 
 ## Feasibility of chloride determination in seawater by ICP
 
@@ -83,6 +83,15 @@
 - **Fix / suggestions:** Confirm Sb standard matrix composition; rule out HF or other precipitants; UNRESOLVED in thread
 - **Credit:** asked by Nancy Wanna; answered by Dr. Robert Brause
 
+## Electronic pipette reliability, brand choice, and repair
+
+*2025-02-11 · original list thread: “Experience with electronic pipettes” · status: solved*
+
+- **Symptom:** Electronic pipettes used for dilution work (single-channel, ~1–10 µL) fail often and are hard to get repaired by third parties; seeking reliable brands and repair options
+- **Likely cause:** N/A (lab-equipment reliability inquiry)
+- **Fix / suggestions:** Use vendor-hosted **pipette clinics** (e.g., through Fisher) that clean and recalibrate for a nominal fee with a few-days turnaround. **Gilson Pipetman** rated reliable (only gripe: removing tip ejectors on manual models); **Eppendorf** reportedly failed faster (corrosion) and was dropped. Pipetting is not highly precise regardless, so reserve it for transfers/weighing rather than as the primary volumetric step.
+- **Credit:** asked by Kaixuan (Ryan) Bu; answered by Ted Huston
+
 ## H2SO4 sulfuric acid sample analysis strategy
 
 *2025-01-31 · original list thread: “Samples with sulphuric acid” · status: solved*
@@ -100,3 +109,12 @@
 - **Likely cause:** Standard interface pump capacity insufficient for full Jet interface potential; suboptimal tune parameters
 - **Fix / suggestions:** Upgrade to high-capacity Jet interface pump. Optimize Apex gas flow (N2 >5 mL/min, Ar >4 L/min), RF power, torch Z position. Additional pump (Edwards E2M30) partially improves sensitivity. Detailed parameter testing and analysis provided.
 - **Credit:** asked by Jakub Sliwinski; answered by Jana Durisova
+
+## Feasibility of lead-in-whole-blood analysis on Element 2 ⏳
+
+*2024-07-05 · original list thread: “lead in blood using Element2” · status: unresolved*
+
+- **Symptom:** Clinical trace-metal lab asked to evaluate whether an on-site Element 2 can be used to monitor lead in whole blood; wants a detailed analytical protocol plus the cost of maintenance, supplies, personnel, and ease of use
+- **Likely cause:** N/A (feasibility / method inquiry)
+- **Fix / suggestions:** UNRESOLVED on-list — no protocol or cost comparison was posted in the thread. Whole-blood Pb is routinely done on quadrupole ICP-MS; if you run it on a sector-field Element, please contribute your method.
+- **Credit:** asked by Anastasia K. Skipor

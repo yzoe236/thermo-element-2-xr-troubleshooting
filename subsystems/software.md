@@ -1,6 +1,6 @@
 # Element Software
 
-24 entries · newest first · [back to index](../README.md)
+26 entries · newest first · [back to index](../README.md)
 
 ## Low recovery and poor calibration linearity in selenium analysis
 
@@ -47,6 +47,15 @@
 - **Fix / suggestions:** UNRESOLVED in thread
 - **Credit:** asked by Connor Hilton
 
+## Host PC hardware specs for a Windows 11 replacement computer
+
+*2025-07-23 · original list thread: “Spec for Windows 11 Computer” · status: solved*
+
+- **Symptom:** Need the required host-PC specs to move an Element 2 onto a new, Windows 11-capable computer
+- **Likely cause:** N/A (hardware-selection inquiry)
+- **Fix / suggestions:** Element software is not picky about host specs — any reasonably powerful current desktop works. Recent factory Elements shipped with a **Dell OptiPlex XE4**; as Dell retires the OptiPlex name, the **Dell Pro Slim Desktop** is a good equivalent (base **Core i3** is adequate; **Core i5** worth the extra for a longer service life; base RAM/disk is fine just to run the instrument). Windows 11 is **not officially sanctioned by Bremen**, but several labs run Elements on it without known issues — follow the Windows 10 install instructions carefully and use the latest Element software version. (Complements the *Element 3.1.7 software and Windows 11* entry below, which covers the software-version side.)
+- **Credit:** asked by Deborah Grimm; answered by Ted Huston
+
 ## Triple-mode count/analog/Faraday data selection logic ⏳
 
 *2025-06-11 · original list thread: “Element Triple mode question” · status: unresolved*
@@ -73,6 +82,15 @@
 - **Likely cause:** Software lacks support for this feature
 - **Fix / suggestions:** UNRESOLVED in thread
 - **Credit:** asked by Christopher Coath
+
+## Half-mass acquisition setup for 230Th/238U tail correction ⏳
+
+*2025-04-30 · original list thread: “how to monitor/quantify signal on a half mass?” · status: unresolved*
+
+- **Symptom:** For U-Th dating on Element 2, need to run a mass scan around ~238.5 and set up an acquisition that monitors signal at half-masses (e.g., 230.5) to quantify 238U tailing onto 230Th
+- **Likely cause:** N/A (method-configuration question)
+- **Fix / suggestions:** UNRESOLVED in thread — no on-list answer captured. Half-mass monitoring is normally done by entering non-integer masses in the method/scan table; if you have a working recipe, please contribute.
+- **Credit:** asked by Dan Sinclair
 
 ## Safety assessment of FEP reset while plasma operating
 

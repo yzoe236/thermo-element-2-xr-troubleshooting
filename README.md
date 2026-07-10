@@ -8,16 +8,16 @@ These aging instruments have limited official support. The collective experience
 of the user community — what broke, what it turned out to be, and what fixed it —
 is often the fastest path to a repair. This repo makes that experience findable.
 
-**119 entries** across 10 subsystems · 37 still unresolved (marked ⏳)
-· last updated 2026-07-09
+**126 entries** across 10 subsystems · 41 still unresolved (marked ⏳)
+· last updated 2026-07-10
 
 ## Start here
 
 - 🗺️ **[Common failure patterns](PATTERNS.md)** — the big picture: where these
-  instruments typically break, distilled from all 119 threads
+  instruments typically break, distilled from all 126 threads
 - 💰 **[Parts & money-saving substitutes](parts-and-substitutes.md)** — every
   part number, price, and community-verified cheap alternative, in one table
-- 🧩 **[Unsolved mysteries](unresolved.md)** — 37 problems nobody has cracked
+- 🧩 **[Unsolved mysteries](unresolved.md)** — 41 problems nobody has cracked
   yet. Solved one? Tell us!
 
 ## Browse by subsystem
@@ -27,13 +27,13 @@ is often the fastest path to a repair. This repo makes that experience findable.
 | [Plasma, Torch & RF](subsystems/plasma-torch.md) | 10 |
 | [Electronics, High Voltage & Front-End PC (FEP)](subsystems/electronics-hv.md) | 20 |
 | [Detector (SEM / Faraday / IDU)](subsystems/detector.md) | 17 |
-| [Element Software](subsystems/software.md) | 24 |
+| [Element Software](subsystems/software.md) | 26 |
 | [Sample Introduction (Nebulizer / Autosampler / MFC)](subsystems/inlet-sample.md) | 12 |
 | [Vacuum System (Pumps & Gauges)](subsystems/vacuum.md) | 6 |
 | [Magnet & Mass Scanning](subsystems/magnet.md) | 5 |
 | [Cones, Slits & Interface](subsystems/cones-interface.md) | 3 |
-| [Maintenance, Chiller & Spare Parts](subsystems/maintenance.md) | 11 |
-| [Applications & Other](subsystems/applications-other.md) | 11 |
+| [Maintenance, Chiller & Spare Parts](subsystems/maintenance.md) | 14 |
+| [Applications & Other](subsystems/applications-other.md) | 13 |
 
 ## How to use
 

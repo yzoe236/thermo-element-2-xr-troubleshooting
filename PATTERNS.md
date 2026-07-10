@@ -1,7 +1,7 @@
 # Start Here: Common Failure Patterns
 
 Before diving into individual entries, it helps to know **where these instruments
-typically break**. The patterns below emerged from analyzing all 119 threads —
+typically break**. The patterns below emerged from analyzing all 126 threads —
 if your symptom fits one, you already know which subsystem file to open.
 
 ---

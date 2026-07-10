@@ -1,6 +1,6 @@
 # Maintenance, Chiller & Spare Parts
 
-11 entries · newest first · [back to index](../README.md)
+14 entries · newest first · [back to index](../README.md)
 
 ## Torch box exhaust flow rate specification query
 
@@ -47,6 +47,24 @@
 - **Fix / suggestions:** Use distilled water only; no antifreeze or algaecide; DI water corrodes copper brass fittings; Thermo recommends distilled water; replace every 3 months
 - **Credit:** asked by Martine LEERMAKERS; answered by Ted Zateslo, Fernando Jiménez Barredo
 
+## Wanted: trusted third-party suppliers for cones, torches, injectors, bonnets ⏳
+
+*2025-03-27 · original list thread: “Request for Supplier Information – Cones, Torches, Injectors” · status: unresolved*
+
+- **Symptom:** Community effort to compile reliable third-party suppliers of sample/skimmer cones, torches, injectors, and bonnets compatible with Element 2 and Neoma (good quality, pricing, or lead time) to streamline procurement and avoid delays
+- **Likely cause:** N/A (sourcing inquiry)
+- **Fix / suggestions:** No consolidated supplier list was posted on-list. ⏳ If you have vetted third-party consumables suppliers, please contribute them. (See also the [Parts & substitutes](../parts-and-substitutes.md) table for individually mentioned part numbers.)
+- **Credit:** asked by Cris Lana
+
+## Sourcing an obsolete Mass-Stream D-511 argon MFC (older Element) ⏳
+
+*2025-03-21 · original list thread: “mass flow controllers” · status: unresolved*
+
+- **Symptom:** An older Element needs a replacement **Mass-Stream D-511** mass flow controller (2 L/min argon); lab seeking working used units because the part is obsolete
+- **Likely cause:** N/A (obsolete-part sourcing)
+- **Fix / suggestions:** No supplier surfaced on-list. ⏳ Part is out of production; realistic options are salvaged/used units from decommissioned instruments. Newer Elements use Thermo sample-gas MFC **PN 1354110** (see [Parts & substitutes](../parts-and-substitutes.md)), but it requires ICP Module board rev. 7+, so it is not a drop-in for older systems.
+- **Credit:** asked by Anastasia K. Skipor
+
 ## Element extraction lens repair kit contents
 
 *2025-02-06 · original list thread: “Extraction Lens Repair Kit” · status: solved*
@@ -64,6 +82,15 @@
 - **Likely cause:** Not applicable
 - **Fix / suggestions:** Rack base features retractable wheels. Use socket on two bolt heads on rear base to raise/lower (schematic sticker shows direction). Corridor relocation: magnet can be retained on smooth floor; ESA clamping unnecessary. Official guidance: remove magnet first.
 - **Credit:** asked by Philip Holdship; answered by Edward Inglis, Matt Darnell
+
+## Independent third-party Element service engineer available
+
+*2024-11-05 · original list thread: “Service for Element – diagnostics, repair and maintenance” · status: solved*
+
+- **Symptom:** Official Thermo service for aging Element instruments is often slow, expensive, or unavailable; labs need an alternative source of diagnostics and repair
+- **Likely cause:** N/A (service-resource announcement)
+- **Fix / suggestions:** An independent field-service engineer offers Element 2/XR diagnostics, repair, adjustment, maintenance, install/uninstall for relocations, and user training at competitive rates — **Mary Podolskaya, AnalyteMe Group (Reus, Tarragona, Spain)**, a former Thermo Element field-service engineer (since 2006) who mentored new Thermo Element 2/XR engineers in 2021–2022. Serves Europe, the Middle East, Asia, and South America. (A separate thread, *Sevice Contact* 2024-12, shows another lab hunting for the Thermo Vienna service contact when its national service could not help — the same gap this fills.)
+- **Credit:** posted by Mary Podolskaya (AnalyteMe Group)
 
 ## ThermoFlex 5000 chiller PM maintenance code interpretation
 
