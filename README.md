@@ -28,12 +28,23 @@ is often the fastest path to a repair. This repo makes that experience findable.
 
 ## How to use
 
-1. Find your symptom in the matching subsystem file (newest first).
-2. Each entry lists **Symptom → Likely cause → Fix**, plus who asked/answered
-   and the original thread subject, so you can locate the full discussion in the
-   mailing-list archive or reach out to people who solved it.
-3. ⏳ marks problems that were never conclusively solved on-list — if you've
-   solved one, please contribute!
+**Three ways to find your problem:**
+
+1. **Search** — use the GitHub search box at the top of this repo (press `/`)
+   with a symptom keyword, e.g. `no signal counting mode`, `Error 89`,
+   `heap corruption`, `plasma ignition`, `SEM supply board`. GitHub full-text
+   indexes every entry.
+2. **Browse by subsystem** — go to the `kb/` file that matches where the problem
+   lives (detector, plasma, FEP/electronics, …). Entries are newest-first;
+   `Ctrl+F` within the page narrows it down.
+3. **Trace back to the full discussion** — every entry cites the *original list
+   thread subject and date*. Search that subject in the mailing-list archive
+   (or your own inbox if you're a subscriber) to read the complete exchange and
+   find who to talk to.
+
+Each entry is structured **Symptom → Likely cause → Fix**, with the people who
+asked/answered credited by name. ⏳ marks problems that were never conclusively
+solved on-list — if you've solved one, please contribute!
 
 ## Contributing (this is the "ticket system")
 
