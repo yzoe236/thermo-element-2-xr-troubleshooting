@@ -1,6 +1,24 @@
 # Sample Introduction (Nebulizer / Autosampler / MFC)
 
-12 entries · newest first · [back to index](../README.md)
+14 entries · newest first · [back to index](../README.md)
+
+## Segmented air bubbles in the capillary stall self-aspiration and cut sensitivity
+
+*2026-07-30 · original list thread: "Neptune — Bubbles in the sample capillary" · status: solved*
+
+- **Symptom:** Neptune Plus running Cu and Sn isotopes with an ASX-112 and 100 µL or 50 µL nebulizers on 100 cm screw-on capillaries (ESI and Savillex both tried). After the probe moves to a different vessel (sample, standard or blank) the system **fails to aspirate**, with **alternating sections of air and liquid visible in the capillary**. Aspiration resumes after an indeterminate wait, but **signal intensity is significantly reduced from then on**. The same lab's Pb/Sr setup (Aridus 2 + ASX-100 + 50 µL nebulizer) is stable.
+- **Likely cause:** Reliable self-aspiration at low flow rates is inherently difficult. There should be **only one air-bubble segment between two solutions**; multiple dismembered bubbles arise when the **autosampler is not moving smoothly**, or when **droplets on the outside of the probe wick down and get sucked in during travel**. The extra bubbles increase flow restriction, and the sensitivity loss comes from the **nebulizer not restarting at its correct flow rate**.
+- **Fix / suggestions:** Check the usual culprits — organics or resin fines in the sample, the nebulizer, the probe, and the autosampler's motion; keep the probe exterior free of clinging droplets. For a permanent fix, move to a **syringe loading/injection system** (e.g. ESI's Isotope2), which maintains aspiration at the exact user-defined flow rate and removes the uncertainties of self-aspiration.
+- **Credit:** asked by Bernd Hoeppner; answered by Paul Field (Elemental Scientific)
+
+## ASX-520 without a cover lets particles fall in and block the nebulizer
+
+*2026-07-20 · original list thread: "ASX 520 housing" · status: partial*
+
+- **Symptom:** After many happy years on a small ASX-100, a higher-throughput project brought a 10-year-idle **ASX-520** back into service (self-aspiration mode) — and the capillary/nebulizer now **blocks constantly**. It blocks in wash, standard and sample solutions alike, yet **aliquots of the very same solutions run fine when transferred to smaller tubes and run on the covered ASX-100 with the same nebulizer and capillary**.
+- **Likely cause:** Particles falling into the open sample tubes, because this ASX-520 has **no enclosure/cover**.
+- **Fix / suggestions:** (a) Obtain an **ASX-520 enclosure/cover** (the poster asked the list for a spare or redundant one). (b) Alternatively the blockage may be **organic material in the tubing** — aspirate or pump a **weak NH₄OH solution** through the tubing and nebulizer to clear it.
+- **Credit:** asked by Jamie Lewis; answered by Chip Chipley
 
 ## Argon sample connection ferrule crack and replacement part
 

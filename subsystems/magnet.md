@@ -1,6 +1,16 @@
 # Magnet & Mass Scanning
 
-5 entries · newest first · [back to index](../README.md)
+6 entries · newest first · [back to index](../README.md)
+
+## Diagnosing insufficient magnet current: low masses fine, high masses fail ⏳
+
+*2026-07-08 · original list thread: "E2 magnet problem" · status: partial*
+
+- **Symptom:** Follow-up to the entry below. ¹¹B and Na scan normally, but while scanning them the magnet current in Diagnostic cycles between values like 0, 0.5, 0.75, 2 and stays **red**; scanning ²³⁸U alone reads 4.6 (green) — the same as when not scanning. Power supply is the **blank-front-panel type, part 2046670** (i.e. the Fast field regulator).
+- **Likely cause:** Power-stage failure — the system (FR board / power stage / power supply) **cannot deliver the current needed for high masses**; more than one FET appears to have failed.
+- **Fix / suggestions:** Useful diagnostic: **scan low masses (B/Na) versus ²³⁸U alone and compare the magnet current in Diagnostic** — red/cycling on low masses plus a static high-mass reading confirms insufficient current. (a) Safest test is to **swap in a known-good power stage** rather than testing FETs, since other parts of the power stage can also fail; Fast-version power stage is **P/N 2046641** or the newer **BRE0005622**. (b) FET-level repair demands serious electronics skill and may instead be a board-level fault controlling the FETs. (c) Realistically, **upgrade to a newer magnet power system** — Thermo will not attempt the repair and will only offer the upgrade; one lab reports the replacement system ran stably and trouble-free afterwards. Community help: a decommissioned E2 with a Fast magnet (likely compatible power stage/supply) was offered on-list.
+- **⚠️ Safety:** The magnet supply puts out **90 V at 10 A** — enough to cause serious harm. As noted on-list, people worry about the 8 kV, but the magnet supply is the more dangerous one.
+- **Credit:** asked by Thomas Marchitto; answered by Ted Zateslo, Louis A. Derry
 
 ## Magnet cannot drive high-mass scanning after cooler failure ⏳
 

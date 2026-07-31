@@ -1,6 +1,6 @@
 # Unsolved Mysteries — Can You Crack One?
 
-41 problems from the list were never conclusively solved. If you have
+42 problems from the list were never conclusively solved. If you have
 solved one of these (or have a strong lead), **please open an *Add a solution* issue** —
 you may save another lab weeks of downtime.
 
@@ -53,6 +53,7 @@ you may save another lab weeks of downtime.
 
 ## Magnet ([details](subsystems/magnet.md))
 
+- **Diagnosing insufficient magnet current: low masses fine, high masses fail** (2026-07-08) — B/Na scan fine but magnet current cycles red; U alone reads static 4.6 green. Power stage can't make current for high masses; needs known-good power stage (P/N 2046641 / BRE0005622) or a new magnet power system
 - **Magnet cannot drive high-mass scanning after cooler failure** (2026-07-07) — Cooler failure caused magnet current trip; after recovery, high-mass peaks extremely small, narrow, and drift severely; Li peak normal; magn
 - **Magnet control indicator intermittent flashing** (2025-10-14) — Magnet control lights red intermittently for seconds then green between Instrument and Tune modes; stays green after cover open; inserting s
 

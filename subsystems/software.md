@@ -1,6 +1,15 @@
 # Element Software
 
-26 entries · newest first · [back to index](../README.md)
+27 entries · newest first · [back to index](../README.md)
+
+## ACQLIB error mid-sequence with "cannot open registry key", sequence aborts
+
+*2026-07-24 · original list thread: "ACQLIB error during sequence" · status: solved*
+
+- **Symptom:** Element XR (software v3.2.1.288, not updated in a couple of years) running a routine sequence; a couple of hours in (well short of the longest sequence) an error halts it. The error triggers **after the Check Mass Drift and the wash, once the probe goes into the sample**. The Executive Sequence Log looks identical to preceding successful samples up to the start of acquisition, then reports **"Cannot open registry key SOFTWARE\finnigan\Element\Executive\Logfiles"** followed by **"Error starting analysis"**. The Instrument Log shows **"ACQLIB Code Procedure 31 repeated"** and **"ACQLIB Code Procedure 2 repeated"**. Removing the offending sample from the sequence just moves the error to the next sample — so it is not sample-specific.
+- **Likely cause:** Not conclusively identified; on-list experience treats it as a **random bug** (suspected comms error or a full cache somewhere).
+- **Fix / suggestions:** The only reliable cure is to **shut everything down and hard-reboot the FEP** — not just the host computer, but the **front-end PC itself**. This Sequence Editor error crops up from time to time and has never been traced to any user action. **Preventive advice: do regular weekly — or even daily — hard reboots of the system.**
+- **Credit:** asked by Sophie Slater-Lewis; answered by Lisa Stockli
 
 ## Low recovery and poor calibration linearity in selenium analysis
 
