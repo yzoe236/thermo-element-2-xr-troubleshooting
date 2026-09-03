@@ -8,16 +8,16 @@ These aging instruments have limited official support. The collective experience
 of the user community — what broke, what it turned out to be, and what fixed it —
 is often the fastest path to a repair. This repo makes that experience findable.
 
-**130 entries** across 10 subsystems · 42 still unresolved (marked ⏳)
-· last updated 2026-07-31
+**131 entries** across 10 subsystems · 43 still unresolved (marked ⏳)
+· last updated 2026-09-03
 
 ## Start here
 
 - 🗺️ **[Common failure patterns](PATTERNS.md)** — the big picture: where these
-  instruments typically break, distilled from all 130 threads
+  instruments typically break, distilled from all 131 threads
 - 💰 **[Parts & money-saving substitutes](parts-and-substitutes.md)** — every
   part number, price, and community-verified cheap alternative, in one table
-- 🧩 **[Unsolved mysteries](unresolved.md)** — 42 problems nobody has cracked
+- 🧩 **[Unsolved mysteries](unresolved.md)** — 43 problems nobody has cracked
   yet. Solved one? Tell us!
 
 ## Browse by subsystem
@@ -26,7 +26,7 @@ is often the fastest path to a repair. This repo makes that experience findable.
 |---|---|
 | [Plasma, Torch & RF](subsystems/plasma-torch.md) | 10 |
 | [Electronics, High Voltage & Front-End PC (FEP)](subsystems/electronics-hv.md) | 20 |
-| [Detector (SEM / Faraday / IDU)](subsystems/detector.md) | 17 |
+| [Detector (SEM / Faraday / IDU)](subsystems/detector.md) | 18 |
 | [Element Software](subsystems/software.md) | 27 |
 | [Sample Introduction (Nebulizer / Autosampler / MFC)](subsystems/inlet-sample.md) | 14 |
 | [Vacuum System (Pumps & Gauges)](subsystems/vacuum.md) | 6 |

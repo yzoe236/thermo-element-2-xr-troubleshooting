@@ -1,6 +1,6 @@
 # Unsolved Mysteries — Can You Crack One?
 
-42 problems from the list were never conclusively solved. If you have
+43 problems from the list were never conclusively solved. If you have
 solved one of these (or have a strong lead), **please open an *Add a solution* issue** —
 you may save another lab weeks of downtime.
 
@@ -18,6 +18,8 @@ you may save another lab weeks of downtime.
 - **FEP CMOS reset and BIOS reconfiguration** (2024-08-14) — Frontend CMOS unexpectedly reset; BIOS corrupted; motherboard only enters standby when PSU powered; requires pin-start method.
 
 ## Detector ([details](subsystems/detector.md))
+
+- **Sourcing a replacement Element XR detector (model MC-SEV-ICP-2)** (2026-08-05) — Poster decided to replace an Element XR detector (fitted model MC-SEV-ICP-2) and asked for sources besides the OEM; no replies came back.
 
 - **Element XR detector sensitivity degradation and abnormal SEM voltage rise** (2026-05-04) — Daily sensitivity decline requiring constant SEM voltage increase (1650V→2100V→2250V→2450V); In count on sample decreases from 1M cps to 400
 - **IDU board LED irregular flashing** (2025-09-23) — IDU board LED flashing irregularly; unclear what normal operation should look like

@@ -1,6 +1,15 @@
 # Detector (SEM / Faraday / IDU)
 
-17 entries · newest first · [back to index](../README.md)
+18 entries · newest first · [back to index](../README.md)
+
+## Sourcing a replacement Element XR detector (model MC-SEV-ICP-2) ⏳
+
+*2026-08-05 · original list thread: "Vendors for Themo Element XR detector (electron multiplier)" · status: unresolved*
+
+- **Symptom:** Not a fault report but a purchasing question. The poster had decided to replace the detector on an Element XR, gave the fitted model as **MC-SEV-ICP-2**, and asked what sources exist besides the OEM.
+- **Likely cause:** Detector end-of-life. This thread is the **sequel to the 2026-05-04 entry below, from the same poster**: three months earlier the SEM voltage had climbed 1650V → 2450V with no autotune plateau and no diagnostic fault, and that diagnosis never converged. Between the two threads the decision moved from "find the fault" to "replace the detector".
+- **Fix / suggestions:** No replies on the list as of 2026-09-03, so no vendor list came back. For reference: the Thermo OEM SEM is **P/N 1152700**, and the factory replacement criterion is a **plateau voltage above 2800 V** (*Maintaining your ELEMENT*, periodic-maintenance table). Anyone who has bought this detector outside the OEM channel would be adding real value by answering.
+- **Credit:** asked by Zikri Arslan
 
 ## Element XR detector sensitivity degradation and abnormal SEM voltage rise ⏳
 
