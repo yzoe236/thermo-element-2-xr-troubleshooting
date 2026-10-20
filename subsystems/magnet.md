@@ -10,7 +10,6 @@
 - **Likely cause:** Power-stage failure — the system (FR board / power stage / power supply) **cannot deliver the current needed for high masses**; more than one FET appears to have failed.
 - **Fix / suggestions:** Useful diagnostic: **scan low masses (B/Na) versus ²³⁸U alone and compare the magnet current in Diagnostic** — red/cycling on low masses plus a static high-mass reading confirms insufficient current. (a) Safest test is to **swap in a known-good power stage** rather than testing FETs, since other parts of the power stage can also fail; Fast-version power stage is **P/N 2046641** or the newer **BRE0005622**. (b) FET-level repair demands serious electronics skill and may instead be a board-level fault controlling the FETs. (c) Realistically, **upgrade to a newer magnet power system** — Thermo will not attempt the repair and will only offer the upgrade; one lab reports the replacement system ran stably and trouble-free afterwards. Community help: a decommissioned E2 with a Fast magnet (likely compatible power stage/supply) was offered on-list.
 - **⚠️ Safety:** The magnet supply puts out **90 V at 10 A** — enough to cause serious harm. As noted on-list, people worry about the 8 kV, but the magnet supply is the more dangerous one.
-- **Credit:** asked by Thomas Marchitto; answered by Ted Zateslo, Louis A. Derry
 
 ## Magnet cannot drive high-mass scanning after cooler failure ⏳
 
@@ -19,7 +18,6 @@
 - **Symptom:** Cooler failure caused magnet current trip; after recovery, high-mass peaks extremely small, narrow, and drift severely; Li peak normal; magnet current indicator intermittently red; multiple red lights on diagnostics panel
 - **Likely cause:** Not conclusively identified (suspected power-stage FET or magnet power-stage failure preventing generation of required high-mass magnetic field strength)
 - **Fix / suggestions:** UNRESOLVED in thread; diagnostic approach: (a) borrow or purchase known-working power stage for testing; (b) optional FET replacement (high risk, requires electronics expertise); (c) upgrade to new magnet power system (expensive but recommended); relevant part numbers 2046641 or BRE0005622
-- **Credit:** asked by Thomas Marchitto; answered by Joe Martineau, Ted Zateslo, Louis A. Derry
 
 ## Magnet power-stage fan check recommendation
 
@@ -28,7 +26,6 @@
 - **Symptom:** Magnet shows fault
 - **Likely cause:** Not conclusively identified
 - **Fix / suggestions:** Check whether fan in power stage is functioning normally
-- **Credit:** answered by Chip
 
 ## Magnet control indicator intermittent flashing ⏳
 
@@ -37,7 +34,6 @@
 - **Symptom:** Magnet control lights red intermittently for seconds then green between Instrument and Tune modes; stays green after cover open; inserting safety switch tongue then closing shows closed-cover behavior
 - **Likely cause:** Possible cover sensor association with HV safety protection circuit
 - **Fix / suggestions:** UNRESOLVED in thread
-- **Credit:** asked by Richard Ash
 
 ## Mass drift at analysis start and magnet sensor temperature dependency
 
@@ -46,7 +42,6 @@
 - **Symptom:** Analysis starts with peak left of window; moves to center in seconds; approximately 5 min later repeats; all resolutions and masses affected
 - **Likely cause:** Magnet sensor temperature drift or auto mass lock setting improper
 - **Fix / suggestions:** Check chassis fan/heater and cooling system stability; check Mass Stability/Speed mode setting; adjust settling time and mass window; issue diagnosed
-- **Credit:** asked by Richard Ash; answered by Matt Darnell, Adrian Reyes, Ted Huston, Rob Franks
 
 ## Low-resolution mass drift and cooling issue
 
@@ -55,4 +50,3 @@
 - **Symptom:** LR peak drifts over hours; MR/HR also present but less severe; appears after cooling system electrical failure
 - **Likely cause:** Cooler efficiency insufficiency causes unstable internal temperature
 - **Fix / suggestions:** Repair cooling system efficiency; issue resolved
-- **Credit:** asked by Claire Richards; answered by Joe Martineau, Christopher Coath, Rob Franks

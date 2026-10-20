@@ -1,7 +1,7 @@
 # Parts, Part Numbers & Money-Saving Substitutes
 
-Every part number, price, and community-verified substitute mentioned across
-the archived threads, in one table. **Verify everything independently before
+Part numbers, reported prices and proposed substitutes from the archived threads.
+A listing here does not establish compatibility or verify a supplier. **Verify everything independently before
 ordering** — prices and availability reflect the time of the original
 discussion (2024–2026), and your mileage may vary.
 
@@ -22,6 +22,7 @@ discussion (2024–2026), and your mileage may vary.
 |---|---|---|---|
 | Roughing pump | Thermo PN 1097510 — **$5,060** | **Pfeiffer PK D61 105 D — $3,645** (same vacuum spec, different connectors) | *Roughing pump options*, 2024-11 |
 | Turbopump controller | TC100 | Swap controllers between pumps to isolate fault before buying | *Turbopump HiPace 80*, 2025-02 |
+| nXL110i interface pump after seizure | No repair price confirmed | Provac was suggested for assessment or rebuilding; no compatible replacement model or outcome reported | *nXL110i interface pump E2*, 2026-10 |
 
 ## Fittings, valves & small parts
 
@@ -36,6 +37,14 @@ discussion (2024–2026), and your mileage may vary.
 | Main gas valve solenoid trigger | (~**$60**) | Test trigger resistance before replacing whole valve | *Cool gas and coil cooling error*, 2025-09 |
 | Flight tube entrance aperture | (~**$3,700**) | Suspect when HR resolution plateaus below spec | *High resolution issues*, 2025-03 |
 | Kapton foil, 0.08 mm amber (magnet/flight-tube insulation) | — | Supplier: **Complex Plastics** | *Kapton foil*, 2025-07 |
+
+## Tune solutions
+
+| Reported option | Details and limits | Source thread |
+|---|---|---|
+| Inorganic Ventures THM-TS-1 | Reported as 1 ng/mL in a later correction; the participant withdrew an earlier statement that they still used it | *Tune solution*, 2026-10-20 |
+| High-Purity Standards ICP-MS-TS-19-100 | Reported as the same participant's current 1 microgram/mL stock; confirm current composition, matrix and certificate | *Tune solution*, 2026-10-20 |
+| In-house mixture | Single-element standards plus high-purity acid and ultrapure water; compare with a reference and check accreditation requirements. No complete recipe was posted | *Tune solution*, 2026-10-20 |
 
 ## Consumables & specs worth pinning
 

@@ -1,6 +1,6 @@
 ---
 name: Correction
-about: Fix an error, or ask for your name to be removed/changed
+about: Fix an error or flag personal information that should be removed
 title: "[Correction] "
 labels: correction
 ---

@@ -13,4 +13,6 @@ labels: new-entry
 
 **What you tried / what it turned out to be** (if known):
 
-**OK to credit you by name?** (yes/no + name):
+**Source and date, if applicable:**
+
+Please omit personal names, email addresses, phone numbers and identifying details from text and attachments.

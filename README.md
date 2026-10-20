@@ -8,31 +8,31 @@ These aging instruments have limited official support. The collective experience
 of the user community — what broke, what it turned out to be, and what fixed it —
 is often the fastest path to a repair. This repo makes that experience findable.
 
-**131 entries** across 10 subsystems · 43 still unresolved (marked ⏳)
-· last updated 2026-09-03
+**138 entries** across 10 subsystems · 48 explicitly flagged unresolved (marked ⏳)
+· last updated 2026-10-20
 
 ## Start here
 
 - 🗺️ **[Common failure patterns](PATTERNS.md)** — the big picture: where these
-  instruments typically break, distilled from all 131 threads
-- 💰 **[Parts & money-saving substitutes](parts-and-substitutes.md)** — every
-  part number, price, and community-verified cheap alternative, in one table
-- 🧩 **[Unsolved mysteries](unresolved.md)** — 43 problems nobody has cracked
-  yet. Solved one? Tell us!
+  instruments typically break, distilled from all 138 entries
+- 💰 **[Parts & proposed substitutes](parts-and-substitutes.md)**: reported
+  part numbers, prices and alternatives, with verification limits
+- 🧩 **[Unsolved mysteries](unresolved.md)** — 48 entries awaiting a confirmed outcome.
+  Solved one? Tell us!
 
 ## Browse by subsystem
 
 | Subsystem | Entries |
 |---|---|
-| [Plasma, Torch & RF](subsystems/plasma-torch.md) | 10 |
-| [Electronics, High Voltage & Front-End PC (FEP)](subsystems/electronics-hv.md) | 20 |
+| [Plasma, Torch & RF](subsystems/plasma-torch.md) | 11 |
+| [Electronics, High Voltage & Front-End PC (FEP)](subsystems/electronics-hv.md) | 21 |
 | [Detector (SEM / Faraday / IDU)](subsystems/detector.md) | 18 |
-| [Element Software](subsystems/software.md) | 27 |
+| [Element Software](subsystems/software.md) | 29 |
 | [Sample Introduction (Nebulizer / Autosampler / MFC)](subsystems/inlet-sample.md) | 14 |
-| [Vacuum System (Pumps & Gauges)](subsystems/vacuum.md) | 6 |
+| [Vacuum System (Pumps & Gauges)](subsystems/vacuum.md) | 7 |
 | [Magnet & Mass Scanning](subsystems/magnet.md) | 6 |
 | [Cones, Slits & Interface](subsystems/cones-interface.md) | 3 |
-| [Maintenance, Chiller & Spare Parts](subsystems/maintenance.md) | 14 |
+| [Maintenance, Chiller & Spare Parts](subsystems/maintenance.md) | 16 |
 | [Applications & Other](subsystems/applications-other.md) | 13 |
 
 ## How to use
@@ -51,9 +51,10 @@ is often the fastest path to a repair. This repo makes that experience findable.
    (or your own inbox if you're a subscriber) to read the complete exchange and
    find who to talk to.
 
-Each entry is structured **Symptom → Likely cause → Fix**, with the people who
-asked/answered credited by name. ⏳ marks problems that were never conclusively
-solved on-list — if you've solved one, please contribute!
+Each entry separates **symptoms, possible causes and reported fixes or suggestions**.
+A suggestion is not a confirmed repair. The count above covers entries explicitly
+marked ⏳; some partial discussions also lack a complete diagnosis. Multiple entries
+may cover follow-ups to the same list thread.
 
 ## Contributing (this is the "ticket system")
 
@@ -64,12 +65,11 @@ solved on-list — if you've solved one, please contribute!
 
 ## Privacy & attribution
 
-- Entries are **summaries**, not reproductions of list emails. Full context lives
-  in the mailing-list archive.
-- Contributor **names are kept for credit; email addresses are deliberately
-  removed** from this public index.
-- If you are credited here and would like your name removed or corrected, open
-  an issue — it will be done promptly, no questions asked.
+- Entries summarize discussions; raw emails, private service correspondence and attachments are not published.
+- Participant names, email addresses, telephone numbers, signatures and identifying institutional details are omitted. Technical manufacturer and supplier names remain where relevant.
+- Source thread subjects and dates are retained so subscribers can locate the original discussion. This does not make the source mailing list anonymous.
+- These rules apply to the current repository content. Older Git commits may contain names from earlier versions.
+- The maintainer's own byline below is intentional.
 
 ## Disclaimer
 

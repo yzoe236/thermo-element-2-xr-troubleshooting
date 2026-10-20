@@ -1,6 +1,22 @@
 # Maintenance, Chiller & Spare Parts
 
-14 entries · newest first · [back to index](../README.md)
+16 entries · newest first · [back to index](../README.md)
+
+## Alternatives to delayed or expensive Element tune solution
+
+*2026-10-20 · original list thread: "Tune solution" · status: partial*
+
+- **Symptom:** The OEM tune-solution order had been outstanding for about two and a half months, prompting a request for other suppliers or an in-house mixture.
+- **Likely cause:** Procurement and cost issue; no instrument fault was reported.
+- **Fix / suggestions:** Participants reported using Inorganic Ventures solutions or making mixtures from single-element standards, high-purity acid and ultrapure water, subject to laboratory accreditation requirements. Compare an in-house preparation with remaining reference solution and document differences. A later correction superseded one participant's earlier recommendation of IV THM-TS-1: that participant now uses High-Purity Standards ICP-MS-TS-19-100, reported as 1 microgram/mL stock, because IV THM-TS-1 was reported as 1 nanogram/mL. The concern about long-term stability at the lower concentration was personal judgment, not a stability study. Verify the current composition, matrix and certificate before substitution; no complete preparation recipe was supplied.
+
+## Seeking Element 1 maintenance and data-acquisition upgrade services ⏳
+
+*2026-10-10 · original list thread: "ELEMENT I" · status: unresolved*
+
+- **Symptom:** An Element 1 owner sought a company able to maintain the instrument and upgrade its data-acquisition system.
+- **Likely cause:** Legacy instrument support and upgrade availability.
+- **Fix / suggestions:** No provider, compatible upgrade or completed installation was identified in the captured discussion as of 2026-10-20.
 
 ## Torch box exhaust flow rate specification query
 
@@ -9,7 +25,6 @@
 - **Symptom:** Cannot find pre-installation guide; need to confirm torch box exhaust flow rate requirement
 - **Likely cause:** File lost
 - **Fix / suggestions:** Torch box exhaust flow rate should be 90–120 m³/h
-- **Credit:** asked by Robert Redmond; answered by Markus Dotzert
 
 ## Vacuum system failure after shutdown due to PSP-300-24 power supply fault
 
@@ -18,7 +33,6 @@
 - **Symptom:** Vacuum cannot be established after shutdown; intermittent failures over years followed by complete failure
 - **Likely cause:** PSP-300-24 switching power supply failure
 - **Fix / suggestions:** Replace with PSP-600-24 power supply model
-- **Credit:** asked by Amy Managh
 
 ## Cetac ASX-110fr autosampler Element2 adaptation
 
@@ -27,7 +41,6 @@
 - **Symptom:** Cetac ASX-110fr autosampler transferred from other ICP-MS; originally USB now needs Element2 COM1 connection; software communication established but arm motion abnormal
 - **Likely cause:** Autosampler firmware and DIP switch settings configured for other ICP-MS vendor
 - **Fix / suggestions:** Update autosampler firmware to Element-compatible version using firmware tool from original install disk; adjust DIP switches; issue resolved
-- **Credit:** asked by Vivian Lai; answered by Grant Craig, Melissa Gilbert
 
 ## ThermoFlex 2500 cooler HPC fault ⏳
 
@@ -36,7 +49,6 @@
 - **Symptom:** Two ThermoFlex 2500 independently show HPC error; manual indicates building water supply issue but supply normal; errors mainly occur at plasma ignition or after
 - **Likely cause:** Building water pressure or flow anomaly, or cooler internal failure
 - **Fix / suggestions:** UNRESOLVED in thread
-- **Credit:** asked by Mickaël THARAUD
 
 ## Chiller refill liquid selection after drain
 
@@ -45,7 +57,6 @@
 - **Symptom:** Building maintenance requires draining chiller; refill with distilled water or add ethylene glycol?
 - **Likely cause:** N/A (maintenance inquiry)
 - **Fix / suggestions:** Use distilled water only; no antifreeze or algaecide; DI water corrodes copper brass fittings; Thermo recommends distilled water; replace every 3 months
-- **Credit:** asked by Martine LEERMAKERS; answered by Ted Zateslo, Fernando Jiménez Barredo
 
 ## Wanted: trusted third-party suppliers for cones, torches, injectors, bonnets ⏳
 
@@ -54,7 +65,6 @@
 - **Symptom:** Community effort to compile reliable third-party suppliers of sample/skimmer cones, torches, injectors, and bonnets compatible with Element 2 and Neoma (good quality, pricing, or lead time) to streamline procurement and avoid delays
 - **Likely cause:** N/A (sourcing inquiry)
 - **Fix / suggestions:** No consolidated supplier list was posted on-list. ⏳ If you have vetted third-party consumables suppliers, please contribute them. (See also the [Parts & substitutes](../parts-and-substitutes.md) table for individually mentioned part numbers.)
-- **Credit:** asked by Cris Lana
 
 ## Sourcing an obsolete Mass-Stream D-511 argon MFC (older Element) ⏳
 
@@ -63,7 +73,6 @@
 - **Symptom:** An older Element needs a replacement **Mass-Stream D-511** mass flow controller (2 L/min argon); lab seeking working used units because the part is obsolete
 - **Likely cause:** N/A (obsolete-part sourcing)
 - **Fix / suggestions:** No supplier surfaced on-list. ⏳ Part is out of production; realistic options are salvaged/used units from decommissioned instruments. Newer Elements use Thermo sample-gas MFC **PN 1354110** (see [Parts & substitutes](../parts-and-substitutes.md)), but it requires ICP Module board rev. 7+, so it is not a drop-in for older systems.
-- **Credit:** asked by Anastasia K. Skipor
 
 ## Element extraction lens repair kit contents
 
@@ -72,7 +81,6 @@
 - **Symptom:** No problem; repair kit contents inquiry.
 - **Likely cause:** Not applicable
 - **Fix / suggestions:** Contains: grease (one skimmer valve service), 2× skimmer valve o-rings, 1× interface housing o-ring, 1× actuator washer, 1× extraction lens, 1× graphite orifice plate, 1× ceramic insulating ring, 2× plastic electrical bulkhead covers. Ceramic washer confirmed (not PTFE). Starred items rarely need replacement.
-- **Credit:** asked by Martin Fleisher; answered by Ted Zateslo, Richard Ash
 
 ## Element 2 relocation to another laboratory procedure
 
@@ -81,7 +89,6 @@
 - **Symptom:** Preventative inquiry; no problem reported.
 - **Likely cause:** Not applicable
 - **Fix / suggestions:** Rack base features retractable wheels. Use socket on two bolt heads on rear base to raise/lower (schematic sticker shows direction). Corridor relocation: magnet can be retained on smooth floor; ESA clamping unnecessary. Official guidance: remove magnet first.
-- **Credit:** asked by Philip Holdship; answered by Edward Inglis, Matt Darnell
 
 ## Independent third-party Element service engineer available
 
@@ -89,8 +96,7 @@
 
 - **Symptom:** Official Thermo service for aging Element instruments is often slow, expensive, or unavailable; labs need an alternative source of diagnostics and repair
 - **Likely cause:** N/A (service-resource announcement)
-- **Fix / suggestions:** An independent field-service engineer offers Element 2/XR diagnostics, repair, adjustment, maintenance, install/uninstall for relocations, and user training at competitive rates — **Mary Podolskaya, AnalyteMe Group (Reus, Tarragona, Spain)**, a former Thermo Element field-service engineer (since 2006) who mentored new Thermo Element 2/XR engineers in 2021–2022. Serves Europe, the Middle East, Asia, and South America. (A separate thread, *Sevice Contact* 2024-12, shows another lab hunting for the Thermo Vienna service contact when its national service could not help — the same gap this fills.)
-- **Credit:** posted by Mary Podolskaya (AnalyteMe Group)
+- **Fix / suggestions:** An independent service provider offered Element 2/XR diagnostics, repairs, maintenance, relocation support and training. The post advertised service availability; it did not report an independently verified repair outcome. Personal contact and location details have been omitted.
 
 ## ThermoFlex 5000 chiller PM maintenance code interpretation
 
@@ -99,7 +105,6 @@
 - **Symptom:** Chiller displays PM maintenance codes 6, 2, 3 recommending maintenance; no alarm sound.
 - **Likely cause:** Per Neslab support engineer, these PM codes require no actual maintenance.
 - **Fix / suggestions:** Dismiss alarm and ignore PM codes. Routine maintenance includes water replacement, filter cleaning, and external air filter cleaning/replacement.
-- **Credit:** asked by Jakub Sliwinski; answered by Ted Zateslo
 
 ## Chiller water panel component leakage after 10 years operation ⏳
 
@@ -108,7 +113,6 @@
 - **Symptom:** Water level in chiller drops significantly; puddle found under Element; leak between parts 13 and 10/11 on water panel.
 - **Likely cause:** Water panel assembly seal failure
 - **Fix / suggestions:** Determine if parts can be replaced individually or entire water panel must be replaced; seek Czech user community support
-- **Credit:** asked by Hana Simkova
 
 ## Element XR short-distance relocation safety procedure
 
@@ -117,7 +121,6 @@
 - **Symptom:** Preventative inquiry; no problem reported.
 - **Likely cause:** Not applicable
 - **Fix / suggestions:** Over smooth floor, short-distance relocation can retain magnet with multi-person support. Rough ground or thresholds require magnet removal. Official guidance: do not relocate with magnet; wheels cannot support that weight.
-- **Credit:** asked by Josh Garber; answered by Chip Chipley, Ted Zateslo
 
 ## Element XR load coil 90° chilled water tubing connector spec
 
@@ -126,4 +129,3 @@
 - **Symptom:** Need Element XR load coil 4mm tube push-to-connect 90° chilled water tubing connector spec, specifically thread size.
 - **Likely cause:** Component information lookup
 - **Fix / suggestions:** SMC PN KQ2L04-M5A (M5 straight thread)
-- **Credit:** asked by Ethan Goddard; answered by Ted Zateslo
